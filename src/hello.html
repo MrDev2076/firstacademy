@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Example</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Flickity CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mx-auto mt-10">
+        <div id="qbank-digital-sa" class="carousel grid grid-cols-4 gap-4">
+            <!-- Card 1 -->
+            <div class="carousel-cell bg-white rounded-lg border py-8 px-8 flex flex-col">
+                <p class="text-gray-600 text-lg font-open text-center">Introductory Plan</p>
+                <p class="text-gray-600 text-lg font-open text-center font-medium mt-1">30 days</p>
+                <h5 class="flex items-start py-5 justify-center">
+                    <span class="text-2xl relative text-gray-700 font-semibold">$</span>
+                    <span class="text-4xl text-gray-700 font-semibold">99</span>
+                </h5>
+                <ul class="text-sm flex flex-col gap-y-3 py-5 text-gray-600">
+                    <li class="flex gap-x-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="blue" class="bi bi-check-lg" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>1000+ Practice Questions</li>
+                    <li class="flex gap-x-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="blue" class="bi bi-check-lg" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>Performance Tracking</li>
+                </ul>
+                <div class="mx-auto mt-24">
+                    <button class="hover:bg-blue-500 border border-blue-500 rounded-full py-4 w-28 font-medium text-blue-500 hover:text-white text-lg">Buy Now</button>
+                </div>
+            </div>
+            <div class="carousel-cell bg-white rounded-lg border py-8 px-8 flex flex-col">
+                <p class="text-gray-600 text-lg font-open text-center">Introductory Plan</p>
+                <p class="text-gray-600 text-lg font-open text-center font-medium mt-1">30 days</p>
+                <h5 class="flex items-start py-5 justify-center">
+                    <span class="text-2xl relative text-gray-700 font-semibold">$</span>
+                    <span class="text-4xl text-gray-700 font-semibold">99</span>
+                </h5>
+                <ul class="text-sm flex flex-col gap-y-3 py-5 text-gray-600">
+                    <li class="flex gap-x-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="blue" class="bi bi-check-lg" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>1000+ Practice Questions</li>
+                    <li class="flex gap-x-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="blue" class="bi bi-check-lg" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>Performance Tracking</li>
+                </ul>
+                <div class="mx-auto mt-24">
+                    <button class="hover:bg-blue-500 border border-blue-500 rounded-full py-4 w-28 font-medium text-blue-500 hover:text-white text-lg">Buy Now</button>
+                </div>
+            </div>
+            <div class="carousel-cell bg-white rounded-lg border py-8 px-8 flex flex-col">
+                <p class="text-gray-600 text-lg font-open text-center">Introductory Plan</p>
+                <p class="text-gray-600 text-lg font-open text-center font-medium mt-1">30 days</p>
+                <h5 class="flex items-start py-5 justify-center">
+                    <span class="text-2xl relative text-gray-700 font-semibold">$</span>
+                    <span class="text-4xl text-gray-700 font-semibold">99</span>
+                </h5>
+                <ul class="text-sm flex flex-col gap-y-3 py-5 text-gray-600">
+                    <li class="flex gap-x-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="blue" class="bi bi-check-lg" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>1000+ Practice Questions</li>
+                    <li class="flex gap-x-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="blue" class="bi bi-check-lg" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>Performance Tracking</li>
+                </ul>
+                <div class="mx-auto mt-24">
+                    <button class="hover:bg-blue-500 border border-blue-500 rounded-full py-4 w-28 font-medium text-blue-500 hover:text-white text-lg">Buy Now</button>
+                </div>
+            </div>
+            <div class="carousel-cell bg-white rounded-lg border py-8 px-8 flex flex-col">
+                <p class="text-gray-600 text-lg font-open text-center">Introductory Plan</p>
+                <p class="text-gray-600 text-lg font-open text-center font-medium mt-1">30 days</p>
+                <h5 class="flex items-start py-5 justify-center">
+                    <span class="text-2xl relative text-gray-700 font-semibold">$</span>
+                    <span class="text-4xl text-gray-700 font-semibold">99</span>
+                </h5>
+                <ul class="text-sm flex flex-col gap-y-3 py-5 text-gray-600">
+                    <li class="flex gap-x-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="blue" class="bi bi-check-lg" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>1000+ Practice Questions</li>
+                    <li class="flex gap-x-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="blue" class="bi bi-check-lg" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>Performance Tracking</li>
+                </ul>
+                <div class="mx-auto mt-24">
+                    <button class="hover:bg-blue-500 border border-blue-500 rounded-full py-4 w-28 font-medium text-blue-500 hover:text-white text-lg">Buy Now</button>
+                </div>
+            </div>
+            
+            
+            
+         
+            
+            <!-- Add more cards as needed following the same structure -->
+        </div>
+    
+        <!-- Navigation buttons for the carousel -->
+        <div class="flex justify-center mt-4">
+            <button id="prev-btn" class="bg-blue-500 text-white rounded-full px-4 py-2 mr-2">Previous</button>
+            <button id="next-btn" class="bg-blue-500 text-white rounded-full px-4 py-2">Next</button>
+        </div>
+    </div>
+    
+    <!-- Flickity JavaScript CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+    <script>
+        // Initialize Flickity carousel
+        var flkty = new Flickity('#qbank-digital-sa', {
+           // Enables wrap-around for seamless sliding
+            pageDots: false, // Disable page dots
+            prevNextButtons: false, // Disable built-in prev/next buttons
+            groupCells: true // Group cells together to fit more in the carousel
+        });
+    
+        // Previous button click event
+        document.getElementById('prev-btn').addEventListener('click', function() {
+            flkty.previous();
+        });
+    
+        // Next button click event
+        document.getElementById('next-btn').addEventListener('click', function() {
+            flkty.next();
+        });
+    </script>
+
+</body>
+
+</html>
