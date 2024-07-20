@@ -7,11 +7,12 @@ viewBox="0 0 525.729 421.577"
  xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
  <defs>
   <style type="text/css">
-   <![CDATA[
-    .fil1 {fill:#234582}
+  <![CDATA[
+    .fil1 {fill:#00796B} 
     .fil2 {fill:#FDD15A}
     .fil0 {fill:#FDFDFD}
-   ]]>
+]]>
+
   </style>
  </defs>
  <g id="Layer_x0020_1">
